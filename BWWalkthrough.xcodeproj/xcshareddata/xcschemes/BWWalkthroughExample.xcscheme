@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "983A62601AAB543100A8151C"
-               BuildableName = "BWWalkthrough.framework"
-               BlueprintName = "BWWalkthrough"
-               ReferencedContainer = "container:BWWalkthroughExample.xcodeproj">
+               BlueprintIdentifier = "DAC83CDE19CA2A9F002D8926"
+               BuildableName = "BWWalkthroughExample.app"
+               BlueprintName = "BWWalkthroughExample"
+               ReferencedContainer = "container:BWWalkthrough.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,24 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "983A626A1AAB543100A8151C"
-               BuildableName = "BWWalkthroughTests.xctest"
-               BlueprintName = "BWWalkthroughTests"
-               ReferencedContainer = "container:BWWalkthroughExample.xcodeproj">
+               BlueprintIdentifier = "DAC83CF319CA2A9F002D8926"
+               BuildableName = "BWWalkthroughExampleTests.xctest"
+               BlueprintName = "BWWalkthroughExampleTests"
+               ReferencedContainer = "container:BWWalkthrough.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "983A62601AAB543100A8151C"
+               BuildableName = "BWWalkthrough.framework"
+               BlueprintName = "BWWalkthrough"
+               ReferencedContainer = "container:BWWalkthrough.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +60,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "983A626A1AAB543100A8151C"
-               BuildableName = "BWWalkthroughTests.xctest"
-               BlueprintName = "BWWalkthroughTests"
-               ReferencedContainer = "container:BWWalkthroughExample.xcodeproj">
+               BlueprintIdentifier = "DAC83CF319CA2A9F002D8926"
+               BuildableName = "BWWalkthroughExampleTests.xctest"
+               BlueprintName = "BWWalkthroughExampleTests"
+               ReferencedContainer = "container:BWWalkthrough.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "983A62601AAB543100A8151C"
-            BuildableName = "BWWalkthrough.framework"
-            BlueprintName = "BWWalkthrough"
-            ReferencedContainer = "container:BWWalkthroughExample.xcodeproj">
+            BlueprintIdentifier = "DAC83CDE19CA2A9F002D8926"
+            BuildableName = "BWWalkthroughExample.app"
+            BlueprintName = "BWWalkthroughExample"
+            ReferencedContainer = "container:BWWalkthrough.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -72,15 +86,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "983A62601AAB543100A8151C"
-            BuildableName = "BWWalkthrough.framework"
-            BlueprintName = "BWWalkthrough"
-            ReferencedContainer = "container:BWWalkthroughExample.xcodeproj">
+            BlueprintIdentifier = "DAC83CDE19CA2A9F002D8926"
+            BuildableName = "BWWalkthroughExample.app"
+            BlueprintName = "BWWalkthroughExample"
+            ReferencedContainer = "container:BWWalkthrough.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -90,15 +104,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "983A62601AAB543100A8151C"
-            BuildableName = "BWWalkthrough.framework"
-            BlueprintName = "BWWalkthrough"
-            ReferencedContainer = "container:BWWalkthroughExample.xcodeproj">
+            BlueprintIdentifier = "DAC83CDE19CA2A9F002D8926"
+            BuildableName = "BWWalkthroughExample.app"
+            BlueprintName = "BWWalkthroughExample"
+            ReferencedContainer = "container:BWWalkthrough.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
