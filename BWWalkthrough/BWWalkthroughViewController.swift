@@ -139,7 +139,7 @@ At the moment it's only used to perform custom animations on didScroll.
         }
     }
 
-    @IBAction func pageControlValueChanged(){
+    @IBAction public func pageControlValueChanged(){
         if let currentPage = pageControl?.currentPage {
             var frame = scrollview.frame
             frame.origin.x = CGFloat(currentPage) * frame.size.width
