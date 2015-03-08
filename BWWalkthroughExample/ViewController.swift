@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import BWWalkthrough
 
 class ViewController: UIViewController, BWWalkthroughViewControllerDelegate {
     

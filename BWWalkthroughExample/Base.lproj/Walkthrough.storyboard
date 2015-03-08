@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Walkthrough View Controller-->
         <scene sceneID="f1r-A2-2vT">
             <objects>
-                <viewController storyboardIdentifier="walk" id="txJ-gV-nlq" customClass="BWWalkthroughViewController" customModule="BWWalkthroughExample" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="walk" id="txJ-gV-nlq" customClass="BWWalkthroughViewController" customModule="BWWalkthrough" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="N4y-CV-VgM"/>
                         <viewControllerLayoutGuide type="bottom" id="VXm-Ru-t4o"/>
@@ -85,7 +85,7 @@
         <!--Walkthrough Page View Controller-->
         <scene sceneID="hhd-kh-VF3">
             <objects>
-                <viewController storyboardIdentifier="walk2" id="XYk-C3-fzG" customClass="BWWalkthroughPageViewController" customModule="BWWalkthroughExample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="walk2" id="XYk-C3-fzG" customClass="BWWalkthroughPageViewController" customModule="BWWalkthrough" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Pn5-dG-6Iv"/>
                         <viewControllerLayoutGuide type="bottom" id="Qmb-H6-Z3E"/>
@@ -161,7 +161,7 @@
         <!--Walkthrough Page View Controller-->
         <scene sceneID="8Tf-D7-UzW">
             <objects>
-                <viewController storyboardIdentifier="walk0" id="a0v-IS-EXc" customClass="BWWalkthroughPageViewController" customModule="BWWalkthroughExample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="walk0" id="a0v-IS-EXc" customClass="BWWalkthroughPageViewController" customModule="BWWalkthrough" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="At2-Nx-1U5"/>
                         <viewControllerLayoutGuide type="bottom" id="Q0s-D3-K13"/>
@@ -275,7 +275,7 @@
         <!--Walkthrough Page View Controller-->
         <scene sceneID="ywq-dR-M81">
             <objects>
-                <viewController storyboardIdentifier="walk1" id="JbJ-Ac-xgR" customClass="BWWalkthroughPageViewController" customModule="BWWalkthroughExample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="walk1" id="JbJ-Ac-xgR" customClass="BWWalkthroughPageViewController" customModule="BWWalkthrough" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="P6H-j1-FXv"/>
                         <viewControllerLayoutGuide type="bottom" id="bbg-ej-M6o"/>
