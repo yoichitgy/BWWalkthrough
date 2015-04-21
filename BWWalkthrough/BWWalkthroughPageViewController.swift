@@ -91,7 +91,7 @@ public class BWWalkthroughPageViewController: UIViewController, BWWalkthroughPag
     // MARK: Animations (WIP)
     
     private func animationAlpha(index:Int, var _ offset:CGFloat){
-        let cView = view.subviews[index] as UIView
+        let cView = view.subviews[index] as! UIView
         
         if(offset > 1.0){
             offset = 1.0 + (1.0 - offset)

@@ -70,8 +70,6 @@ At the moment it's only used to perform custom animations on didScroll.
     // MARK: - Overrides -
     
     public required init(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-        
         // Setup the scrollview
         scrollview = UIScrollView()
         scrollview.showsHorizontalScrollIndicator = false
@@ -80,12 +78,14 @@ At the moment it's only used to perform custom animations on didScroll.
         
         // Controllers as empty array
         controllers = Array()
+        
+        super.init(coder: aDecoder)
     }
     
-    public override init() {
-        super.init()
+    public required init() {
         scrollview = UIScrollView()
         controllers = Array()
+        super.init(nibName: nil, bundle: nil)
     }
     
     public override func viewDidLoad() {
@@ -192,10 +192,10 @@ At the moment it's only used to perform custom animations on didScroll.
             scrollview.addConstraints(NSLayoutConstraint.constraintsWithVisualFormat("H:[previousView]-0-[view]", options:nil, metrics: nil, views: ["previousView":previousView,"view":vc.view]))
             
             if let cst = lastViewConstraint{
-                scrollview.removeConstraints(cst)
+                scrollview.removeConstraints(cst as [AnyObject])
             }
             lastViewConstraint = NSLayoutConstraint.constraintsWithVisualFormat("H:[view]-0-|", options:nil, metrics: nil, views: ["view":vc.view])
-            scrollview.addConstraints(lastViewConstraint!)
+            scrollview.addConstraints(lastViewConstraint! as [AnyObject])
         }
     }
 
